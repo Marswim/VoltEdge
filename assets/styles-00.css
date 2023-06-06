@@ -471,6 +471,15 @@ main {
 .description-us h1 {
   font-weight: 900;
   font-size: 28px;
+  color: var(--yellow);
+}
+.description-us p {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 22px;
+}
+.description-us p > span {
+  font-weight: 900;
   background: linear-gradient(
     0deg,
     rgb(200, 240, 200) 20%,
@@ -481,11 +490,6 @@ main {
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
-}
-.description-us p {
-  text-align: justify;
-  line-height: 1.5;
-  font-size: 22px;
 }
 .us {
   left: 1200px;
