@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+  .cart h2 {
+    margin-left: 20px;
+  }
+  .bg-us img {
+    position: absolute;
+    left: 260px;
+    top: 100px;
+    width: 45%;
+  }
+  .us {
+    left: 600px;
+  }
+}

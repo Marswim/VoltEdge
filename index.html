@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoltEdge Motors</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles-00.css" />
+    <link rel="stylesheet" href="./assets/styles-1200.css" />
+    <link rel="stylesheet" href="./assets/styles-992.css" />
+    <link rel="stylesheet" href="./assets/styles-768.css" />
+    <link rel="stylesheet" href="./assets/styles-576.css" />
+    <link rel="stylesheet" href="./assets/animation.css" />
+    <link rel="stylesheet" href="./assets/styles-320.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          src="assets/logo-e-vehicle.png"
+          alt="Logo-Vehicles"
+          id="logo-Vehicles-header"
+        />
+        <div class="texto-logo">
+          <h3>VoltEdge</h3>
+          <p>E-Vehicle Design</p>
+        </div>
+      </div>
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-toggle"
+          ><i class="fa-solid fa-bars-staggered" style="color: #ffffff"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+        <ul class="navbar-list">
+          <li class="menu-00">
+            <div class="contendor-home"><a href="#">Home</a> <span></span></div>
+            <span class="vertical" id="vertical-home"></span>
+          </li>
+          <li class="menu-01"><a href="#">Releases</a> <span></span></li>
+          <li class="menu-02"><a href="#">Support</a> <span></span></li>
+          <li class="menu-03"><a href="#">Products</a> <span></span></li>
+          <li class="menu-04"><a href="#">Contact</a> <span></span></li>
+        </ul>
+        <div class="cart-login">
+          <span class="vertical"></span>
+          <div class="login">
+            <label for="sing-toggle">
+              <i class="fa-solid fa-user" id="user" style="color: #ffffff"
+                ><a href="#">Sing in</a>
+              </i>
+            </label>
+            <input type="checkbox" id="sing-toggle" />
+          </div>
+          <label for="cart-toggle" class="cart-label">
+            <img
+              class="carrito"
+              id="carrito"
+              src="assets/carrito.png"
+              alt="carrito de compras"
+            />
+          </label>
+          <input type="checkbox" id="cart-toggle" />
+          <!--menu carrito desplegable-->
+          <div class="cart">
+            <h2>Your Vehicles</h2>
+            <div class="cart-item">
+              <span id="cierre-item"></span>
+              <img
+                src="./assets/scooter-kid-00.png"
+                alt="NFT del carrito"
+                id="kid-00"
+              />
+              <div class="item-info">
+                <h3 class="item-title">scooter-kid-00</h3>
+                <p>Codigo 00</p>
+                <span class="item-price">0.85 ETH</span>
+              </div>
+              <div class="item-handler">
+                <span class="quantity-handler down">-</span>
+                <span class="item-quantity">+</span>
+                <span class="quantity-handler up">1</span>
+              </div>
+              <span id="cierre-item"></span>
+            </div>
+          </div>
+        </div>
+        <!-- agrego un div vacio para generar el blur al abrir mi carrito -->
+        <div class="overlay"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="introduction-us">
+        <div class="bg-us">
+          <img src="assets/bg-us-00.png" alt="fondo-us" />
+          <h1>
+            The perfect blend of electric vehicles, ecological consciousness,
+            and <span>Cutting-Edge Design.</span>
+          </h1>
+        </div>
+        <button class="btn preorder">
+          PRE - ORDER <span class="titila">NOW!</span><a href="#"></a>
+        </button>
+        <div class="description-us">
+          <h1>We are de Future</h1>
+          <p>
+            VoltEdge is at the forefront of the fusion between technology,
+            design, and ecology in the realm of electric vehicles. Join us on
+            this journey as we redefine mobility with our visionary approach to
+            electric vehicles.
+          </p>
+        </div>
+        <button class="btn us">+ About Us <a href="#"></a></button>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

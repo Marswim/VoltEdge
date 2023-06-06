@@ -1,0 +1,59 @@
+@media (max-width: 576px) {
+  .navbar-list {
+    gap: 20px;
+  }
+  .logo-container {
+    width: 40%;
+  }
+
+  #logo-Vehicles-header {
+    width: 60px;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+  }
+  .texto-logo {
+    width: 100%;
+    top: 60px;
+  }
+  .texto-logo h3 {
+    left: 40px;
+  }
+  .texto-logo p {
+    left: 20px;
+    top: 25px;
+  }
+  .login a {
+    padding-left: 3px;
+  }
+  .bg-us {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+  }
+  .bg-us img {
+    position: absolute;
+    left: 60px;
+    top: 120px;
+    width: 65%;
+  }
+  .bg-us h1 {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .description-us {
+    display: none;
+  }
+  .btn {
+    left: 40px;
+    bottom: 20px;
+  }
+  .us {
+    left: 380px;
+    bottom: 20px;
+  }
+}

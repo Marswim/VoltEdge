@@ -1,0 +1,76 @@
+@media (max-width: 320px) {
+  header {
+    margin: 0;
+    padding: 0px;
+  }
+  #logo-Vehicles-header {
+    width: 60px;
+    position: absolute;
+    left: 10px;
+    top: 35px;
+  }
+  .texto-logo {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-list {
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 50%;
+    height: calc(400px - 120px);
+    gap: 20px;
+    z-index: 6;
+  }
+  #vertical-home {
+    display: none;
+  }
+  .cart-login {
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+    height: 120px;
+    gap: 10px;
+    padding: 0px 20px;
+  }
+  .cart-login span {
+    display: none;
+  }
+  .carrito {
+    padding: 0;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  #introduction-us {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bg-us {
+    width: 100%;
+    justify-content: center;
+  }
+  .bg-us img {
+    position: absolute;
+    left: 40px;
+    top: 220px;
+    width: 80%;
+  }
+  .btn {
+    position: relative;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    left: 0;
+    bottom: 0px;
+  }
+  .us {
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+}
