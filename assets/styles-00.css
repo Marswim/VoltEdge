@@ -786,13 +786,19 @@ main {
   color: white;
   font-weight: 700;
 }
+#products {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+}
 .products-cards-concepts {
+  padding: 0px 40px;
+}
+.product-concept {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 100vh;
+  grid-template-rows: 1fr;
   width: 100%;
-  position: relative;
   gap: 20px;
   z-index: 0;
 }
@@ -802,31 +808,29 @@ main {
   border: solid 1px var(--white);
   position: relative;
   border-radius: 40px;
-  width: 100%;
-}
-.concept-01 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
-  width: 100%;
-  gap: 20px;
-  background: none;
-  border: none;
 }
 .product:hover {
   background-color: rgb(89, 89, 89);
   transition: all 2s ease;
 }
-.concept-01 img {
-  width: 100%;
-  z-index: 15;
+/*product-01*/
+.concept-01 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 40px;
+  gap: 0px;
 }
-.concept-01 img:hover {
+
+#img-concept-01 {
+  width: 100%;
+  z-index: 2;
+}
+#img-concept-01:hover {
   transform: scale(1.15) translateY(-5%);
   transition: transform 1s ease-in-out;
-  z-index: 15;
+  z-index: 2;
 }
 .product-info {
   color: white;
@@ -918,4 +922,43 @@ main {
   border-radius: 10px;
   border: none;
   transition: 0.5s ease-in-out;
+}
+/*product 02*/
+.concept-02 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+
+  gap: 20px;
+}
+#img-concept-02 {
+  width: 100%;
+  z-index: 2;
+}
+#img-concept-02:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product 03*/
+.concept-03 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+
+  gap: 20px;
+}
+
+#img-concept-03 {
+  width: 100%;
+  z-index: 2;
+}
+#img-concept-03:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
 }
