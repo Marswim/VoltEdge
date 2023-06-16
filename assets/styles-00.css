@@ -47,7 +47,7 @@ header {
   );
   box-shadow: 0 0 10px 0 var(--white);
   transition: all 0.7s ease;
-  overflow: hidden;
+  /*overflow: hidden;*/
   z-index: 7;
 }
 /*header::before {
@@ -272,7 +272,7 @@ li span {
   width: 20%;
   background-color: rgba(12, 12, 24, 0.617);
   border-radius: 30% / 50% 0 0% 50%;
-  top: -400px;
+  top: 120px;
   right: 0;
   margin-left: 40px;
   margin-right: 0;
@@ -752,6 +752,10 @@ main {
   display: flex;
   flex-direction: column;
 }
+.concept {
+  display: flex;
+  flex-direction: column;
+}
 .Concept-info {
   display: flex;
   justify-content: space-between;
@@ -790,7 +794,9 @@ main {
   width: 100%;
   position: relative;
   gap: 20px;
+  z-index: 0;
 }
+
 .product {
   background-color: var(--plateado-transparent);
   border: solid 1px var(--white);
@@ -798,7 +804,7 @@ main {
   border-radius: 40px;
   width: 100%;
 }
-.product-concept-01 {
+.concept-01 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -806,9 +812,21 @@ main {
   padding: 40px;
   width: 100%;
   gap: 20px;
+  background: none;
+  border: none;
 }
-.product-concept-01 img {
+.product:hover {
+  background-color: rgb(89, 89, 89);
+  transition: all 2s ease;
+}
+.concept-01 img {
   width: 100%;
+  z-index: 15;
+}
+.concept-01 img:hover {
+  transform: scale(1.15) translateY(-5%);
+  transition: transform 1s ease-in-out;
+  z-index: 15;
 }
 .product-info {
   color: white;
@@ -881,6 +899,7 @@ main {
   font-size: 18px;
   font-weight: 900;
   text-align: center;
+  transition: 0.5s ease-in-out;
 }
 .btn-add > a {
   background-color: rgb(50, 49, 62);
@@ -891,10 +910,12 @@ main {
   font-size: 18px;
   font-weight: 900;
   color: var(--yellow);
+  transition: 0.5s ease-in-out;
 }
 .btn-add > a:hover {
   background-color: rgb(24, 24, 50);
   color: white;
   border-radius: 10px;
   border: none;
+  transition: 0.5s ease-in-out;
 }
