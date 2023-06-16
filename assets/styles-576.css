@@ -26,6 +26,11 @@
   .login a {
     padding-left: 3px;
   }
+  .cart {
+    width: 40%;
+    text-align: center;
+    padding: 40px 20px 20px 40px;
+  }
   .bg-us {
     display: flex;
     justify-content: flex-start;
@@ -52,8 +57,8 @@
     left: 40px;
     bottom: 20px;
   }
-  .us {
-    left: 380px;
-    bottom: 20px;
+  .us2 {
+    display: block;
+    margin-left: 360px;
   }
 }

@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+  .cart {
+    width: 25%;
+  }
   .cart h2 {
     margin-left: 20px;
   }
@@ -9,6 +12,7 @@
     width: 45%;
   }
   .us {
-    left: 600px;
+    left: -200px;
+    bottom: 20px;
   }
 }

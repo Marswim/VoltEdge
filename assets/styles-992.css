@@ -71,7 +71,8 @@
     margin-left: 20px;
   }
   .us {
-    left: 500px;
+    left: -200px;
+    bottom: 30px;
   }
   .description-us {
     width: 35%;

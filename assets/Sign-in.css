@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work+Sans", sans-serif;
+}
+:root {
+  --yellow: #dcbe12;
+  --plateado: #c0c0c0;
+  --plateado-transparent: #c0c0c06f;
+  --azulino: #071934;
+  --white: #fafafa;
+  --bg-img: url("assets/endless-constellation.svg");
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 160px;
+}
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-wrap: wrap;
+  width: 30%;
+  justify-content: center;
+  background-color: var(--plateado-transparent);
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 30px;
+}
+form {
+  gap: 60px;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+}
+.title-sign-in {
+  font-weight: 900;
+}
+#logo-e-vehicle {
+  position: absolute;
+  left: 35%;
+  width: 40%;
+  top: -120px;
+}
+.e-mail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input,
+#correo {
+  background-color: transparent;
+  border-radius: 20px;
+  border: solid 1px white;
+  border-top: none;
+  border-right: none;
+}
+#correo::placeholder {
+  border: none;
+  margin-left: 5px;
+  padding-left: 10px;
+  border-radius: 20px;
+  color: rgb(113, 113, 113);
+  background-color: rgba(128, 128, 128, 0);
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#password::placeholder {
+  border: none;
+  margin-left: 5px;
+  padding-left: 10px;
+  border-radius: 20px;
+  color: rgb(113, 113, 113);
+  background-color: rgba(128, 128, 128, 0);
+}
+.btn-login {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: rgba(24, 24, 50, 0);
+  border-radius: 100% / 100% 30% 100% 100%;
+  font-size: 18px;
+  padding: 5px 20px;
+  font-weight: 900;
+  border: solid 2px;
+  border-top: none;
+  border-right: none;
+  border-color: rgba(255, 255, 255, 0.927);
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-login:hover {
+  background-color: rgba(15, 54, 11, 0.606);
+  border: solid 2px;
+  border-top: none;
+  border-right: none;
+  border-color: rgba(15, 54, 11, 0.606);
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  transition: all 0.7s ease;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--plateado-transparent);
+  gap: 20px;
+  border-top: 1px solid white;
+  padding: 20px 0px;
+  border-radius: 0 0 20px 20px;
+}
+h3 span {
+  font-weight: 900;
+  background: linear-gradient(
+    0deg,
+    rgb(223, 255, 223) 5%,
+    rgb(16, 71, 11) 50%,
+    rgb(200, 231, 193) 95%
+  );
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.2);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px darkgoldenrod;
+  font-size: 28px;
+}
+.new {
+  color: white;
+  background-color: rgba(24, 24, 50, 0);
+  border-radius: 100% / 100% 30% 100% 100%;
+  font-size: 18px;
+  padding: 5px 20px;
+  font-weight: 900;
+  border: solid 2px;
+  border-top: none;
+  border-right: none;
+  border-color: rgba(255, 255, 255, 0.927);
+  cursor: pointer;
+}
+.new a {
+  text-decoration: none;
+  color: white;
+}
+.new:hover {
+  background-color: rgba(15, 54, 11, 0.606);
+  border: solid 2px;
+  border-top: none;
+  border-right: none;
+  border-color: rgba(15, 54, 11, 0.606);
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  transition: all 0.7s ease;
+}
+@media (max-width: 1200px) {
+  .sign-in {
+    width: 40%;
+  }
+  #logo-e-vehicle {
+    top: -100px;
+  }
+}
+@media (max-width: 992px) {
+  .sign-in {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+  .register {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .sign-in {
+    width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  .sign-in {
+    width: 80%;
+  }
+  .register {
+    flex-direction: column;
+  }
+}
+@media (max-width: 320px) {
+  .register {
+    display: flex;
+    flex-direction: column;
+  }
+  #logo-e-vehicle {
+    top: -55px;
+  }
+}

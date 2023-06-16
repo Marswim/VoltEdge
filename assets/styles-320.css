@@ -69,8 +69,8 @@
     left: 0;
     bottom: 0px;
   }
-  .us {
+  .us2 {
+    display: block;
     margin-left: 80px;
-    margin-bottom: 20px;
   }
 }
