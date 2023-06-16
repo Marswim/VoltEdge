@@ -748,9 +748,16 @@ main {
   transition: transform 1s ease-in-out;
   z-index: 6;
 }
+
 #products {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+}
+/*concepts-------------------------*/
+.product-concept {
+  margin: 0px;
+  padding: 0px;
 }
 .concept {
   display: flex;
@@ -770,6 +777,7 @@ main {
   line-height: 2;
   border-right: solid 2px white;
   padding-right: 20px;
+  text-align: center;
 }
 .info-concepts {
   display: flex;
@@ -782,22 +790,12 @@ main {
   align-items: end;
   font-size: 20px;
 }
-.info-concepts > a {
-  color: white;
-  font-weight: 700;
-}
-#products {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(7, 1fr);
-}
+
 .products-cards-concepts {
-  padding: 0px 40px;
-}
-.product-concept {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   width: 100%;
   gap: 20px;
   z-index: 0;
@@ -930,7 +928,6 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
-
   gap: 20px;
 }
 #img-concept-02 {
@@ -949,7 +946,6 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
-
   gap: 20px;
 }
 
@@ -958,6 +954,213 @@ main {
   z-index: 2;
 }
 #img-concept-03:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+
+/*adult-scooter-------------------------*/
+.adult-a-scooter {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.adult-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  align-items: center;
+}
+.adult-info h2 {
+  color: white;
+  width: 60%;
+  font-size: 32px;
+  height: 100%;
+  line-height: 2;
+  border-right: solid 2px white;
+  padding-right: 20px;
+  text-align: center;
+}
+.info-adult-scooter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-adult-scooter p {
+  color: white;
+  width: 100%;
+  align-items: end;
+  font-size: 20px;
+}
+.products-cards-a-scooters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  gap: 20px;
+  z-index: 0;
+}
+/*product-01*/
+.A-scooter-01 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#img-A-scooter-01 {
+  width: 55%;
+  z-index: 2;
+}
+#img-A-scooter-01:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-02*/
+.a-scooter-02 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#a-scooter-02 {
+  width: 40%;
+  z-index: 2;
+}
+#a-scooter-02:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-03*/
+.a-scooter-03 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#img-a-scooter-03 {
+  width: 40%;
+  z-index: 2;
+}
+#img-a-scooter-03:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+
+/*kids-scooter-------------------------*/
+.kids-scooter {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.kid-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  align-items: center;
+}
+.kid-info h2 {
+  color: white;
+  width: 60%;
+  font-size: 32px;
+  height: 100%;
+  line-height: 2;
+  border-right: solid 2px white;
+  padding-right: 20px;
+  text-align: center;
+}
+.info-kid-scooter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-kid-scooter p {
+  color: white;
+  width: 100%;
+  align-items: end;
+  font-size: 20px;
+}
+.products-cards-kid-scooters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  gap: 20px;
+  z-index: 0;
+}
+/*product-01*/
+.kid-scooter-00 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#kid-scooter-00 {
+  width: 55%;
+  z-index: 2;
+}
+#kid-scooter-00:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-02*/
+.kid-scooter-02 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#kid-scooter-02 {
+  width: 45%;
+  z-index: 2;
+}
+#kid-scooter-02:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-03*/
+.kid-scooter-03 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#kid-scooter-03 {
+  width: 30%;
+  z-index: 2;
+}
+#kid-scooter-03:hover {
   transform: scale(1.25);
   transition: transform 1s ease-in-out;
   z-index: 2;
