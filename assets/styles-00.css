@@ -1165,3 +1165,412 @@ main {
   transition: transform 1s ease-in-out;
   z-index: 2;
 }
+/*SKATE-------------------------*/
+.product-skate {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.skate-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  align-items: center;
+}
+.skate-info h2 {
+  color: white;
+  width: 60%;
+  font-size: 32px;
+  height: 100%;
+  line-height: 2;
+  border-right: solid 2px white;
+  padding-right: 20px;
+  text-align: center;
+}
+.info-skate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-skate p {
+  color: white;
+  width: 100%;
+  align-items: end;
+  font-size: 20px;
+}
+.products-cards-skate {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  gap: 20px;
+  z-index: 0;
+}
+/*product-01*/
+.skate-00 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#skate-00 {
+  width: 60%;
+  z-index: 2;
+}
+#skate-00:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-02*/
+.skate-02 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#skate-02 {
+  width: 65%;
+  z-index: 2;
+}
+#skate-02:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-03*/
+.skate-03 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#skate-03 {
+  width: 60%;
+  z-index: 2;
+}
+#skate-03:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*Scooter-------------------------*/
+.product-scooter {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.scooter-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  align-items: center;
+}
+.scooter-info h2 {
+  color: white;
+  width: 60%;
+  font-size: 32px;
+  height: 100%;
+  line-height: 2;
+  border-right: solid 2px white;
+  padding-right: 20px;
+  text-align: center;
+}
+.info-scooter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-scooter p {
+  color: white;
+  width: 100%;
+  align-items: end;
+  font-size: 20px;
+}
+.products-cards-scooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  gap: 20px;
+  z-index: 0;
+}
+/*product-01*/
+.scooter-00 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#scooter-00 {
+  width: 70%;
+  z-index: 2;
+}
+#scooter-00:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-02*/
+.scooter-02 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#scooter-02 {
+  width: 50%;
+  z-index: 2;
+}
+#scooter-02:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-03*/
+.scooter-03 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#scooter-03 {
+  width: 50%;
+  z-index: 2;
+}
+#scooter-03:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*Classics-------------------------*/
+.product-classics {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.classics-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  align-items: center;
+}
+.classics-info h2 {
+  color: white;
+  width: 60%;
+  font-size: 32px;
+  height: 100%;
+  line-height: 2;
+  border-right: solid 2px white;
+  padding-right: 20px;
+  text-align: center;
+}
+.info-classics {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-classics p {
+  color: white;
+  width: 100%;
+  align-items: end;
+  font-size: 20px;
+}
+.products-cards-classics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  gap: 20px;
+  z-index: 0;
+}
+/*product-01*/
+.classics-00 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#classics-00 {
+  width: 60%;
+  z-index: 2;
+}
+#classics-00:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-02*/
+.classics-02 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#classics-02 {
+  width: 60%;
+  z-index: 2;
+}
+#classics-02:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-03*/
+.classics-03 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#classics-03 {
+  width: 50%;
+  z-index: 2;
+}
+#classics-03:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+
+/*Motorcycle-------------------------*/
+.product-motorcycle {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.motorcycle-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  align-items: center;
+}
+.motorcycle-info h2 {
+  color: white;
+  width: 60%;
+  font-size: 32px;
+  height: 100%;
+  line-height: 2;
+  border-right: solid 2px white;
+  padding-right: 20px;
+  text-align: center;
+}
+.info-motorcycle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-motorcycle p {
+  color: white;
+  width: 100%;
+  align-items: end;
+  font-size: 20px;
+}
+.products-cards-motorcycle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  gap: 20px;
+  z-index: 0;
+}
+/*product-01*/
+.motorcycle-00 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#motorcycle-00 {
+  width: 60%;
+  z-index: 2;
+}
+#motorcycle-00:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-02*/
+.motorcycle-02 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#motorcycle-02 {
+  width: 60%;
+  z-index: 2;
+}
+#motorcycle-02:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
+/*product-03*/
+.motorcycle-03 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+#motorcycle-03 {
+  width: 65%;
+  z-index: 2;
+}
+#motorcycle-03:hover {
+  transform: scale(1.25);
+  transition: transform 1s ease-in-out;
+  z-index: 2;
+}
