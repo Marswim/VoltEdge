@@ -1577,16 +1577,35 @@ main {
   z-index: 2;
 }
 /*Releases*/
-.releases {
+@keyframes colorTransition {
+  0% {
+    filter: grayscale(100%);
+  }
+  100% {
+    filter: grayscale(0%);
+  }
+}
+#releases {
   display: flex;
   position: relative;
   margin: 0px;
   padding: 0px;
   width: 100%;
+  height: 600px;
+  background-image: url(./back-releases.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: solid 10px white;
+  border-top: solid 2px white;
+  z-index: 0;
+  filter: grayscale(100%);
+  animation: colorTransition 3s infinite alternate;
 }
 
 .new-releases {
   display: flex;
+  justify-content: space-around;
   width: 100%;
   position: relative;
 }
@@ -1627,25 +1646,148 @@ main {
   text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.518);
   transition: all 1s ease;
 }
-@keyframes colorTransition {
-  0% {
-    filter: grayscale(100%);
-  }
-  100% {
-    filter: grayscale(0%);
-  }
+
+#release-00 {
+  width: 50%;
+  scale: 0.8;
+  margin-top: -7%;
+  margin-left: 20%;
 }
-#back-releases {
+/*contact-----------------------*/
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
   width: 100%;
   height: 600px;
-  border-bottom: solid 10px white;
-  border-top: solid 2px white;
-  z-index: 0;
-  filter: grayscale(100%);
-  animation: colorTransition 3s infinite alternate;
+  padding: 40px 60px;
+  background-image: url(./logo-e-vehicle.png);
+  background-color: #0000005f;
+  background-blend-mode: multiply;
+  background-size: 33%;
+  background-position: 15% 16%;
+  background-repeat: no-repeat;
 }
-#release-00 {
-  position: absolute;
-  left: 40%;
-  top: 30%;
+.us {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 10%;
+  height: 80%;
+  gap: 15px;
+  border: 2px solid var(--white);
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.follow h2 {
+  color: #c0c0c0;
+  font-weight: 900;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+#brand {
+  background: linear-gradient(
+    0deg,
+    rgb(223, 255, 223) 5%,
+    rgb(16, 71, 11) 50%,
+    rgb(200, 231, 193) 95%
+  );
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.2);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px darkgoldenrod;
+}
+li i {
+  width: auto;
+  font-size: 24px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  padding: 10px;
+}
+.Contact {
+  width: 20%;
+}
+.Contact h2 {
+  color: #c0c0c0;
+  font-weight: 900;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+#comments {
+  margin: 0px;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: none;
+  border: solid 1px white;
+  border-top: none;
+  border-right: none;
+  resize: none;
+  padding: 0px 10px;
+  color: var(--white);
+}
+#comments::placeholder {
+  font-weight: 700;
+  border: none;
+  margin-left: 5px;
+  padding-left: 10px;
+  border-radius: 20px;
+  color: rgb(175, 175, 175);
+  background-color: rgba(255, 255, 255, 0);
+}
+iframe {
+  border-radius: 50%;
+  border: 1px solid gray;
+  box-shadow: 0px 0 10px 0 var(--white);
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 120px;
+  border-top: 1px solid rgba(255, 255, 255, 0.697);
+  padding: 5px 0px 10px 40px;
+  background: linear-gradient(
+    30deg,
+    #071934 30%,
+    rgba(255, 255, 255, 0.438) 100%
+  );
+  box-shadow: 0 0 10px 0 var(--white);
+  transition: all 0.7s ease;
+}
+.legal {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
