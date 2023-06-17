@@ -533,29 +533,12 @@ main {
 #us-benefits {
   display: flex;
   position: relative;
+  justify-content: space-between;
   margin-top: 0px;
   padding: 0px;
   gap: 40px;
   background: rgba(0, 0, 0, 0.574);
   border-bottom: 1px solid rgba(255, 255, 255, 0.712);
-}
-.electric-skt {
-  position: relative;
-  width: 50%;
-  background-color: var(--plateado-transparent);
-  clip-path: polygon(30% 50% 20% 60%);
-  border-left: solid 1px white;
-}
-.electric-skt::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  filter: blur(100px);
-  z-index: 5;
 }
 
 .our-company {
@@ -592,19 +575,19 @@ main {
   display: flex;
   display: none;
 }
-#btn-company:checked + .info-us {
+#btn-company:checked ~ .info-us {
   display: block;
   transition: all 0.7s linear;
 }
-#btn-company:checked + .electric-us {
+#btn-company:checked ~ .electric-us {
   display: none;
   transition: all 0.7s linear;
 }
-#btn-engine:checked + .info-us {
+#btn-engine:checked ~ .info-us {
   display: none;
   transition: all 0.7s linear;
 }
-#btn-engine:checked + .electric-us {
+#btn-engine:checked ~ .electric-us {
   display: block;
   transition: all 0.7s linear;
 }
@@ -621,6 +604,17 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.electric-motor {
+  width: 100%;
+  height: 600px;
+  background-image: url(./sketch-electric-motor.png);
+  background-color: var(--plateado-transparent);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  clip-path: polygon(30% 50% 20% 60%);
+  border-left: solid 1px white;
 }
 
 #select {
