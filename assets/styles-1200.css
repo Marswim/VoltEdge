@@ -1,4 +1,21 @@
 @media (max-width: 1200px) {
+  #motor {
+    position: absolute;
+    left: 17%;
+    top: 37%;
+    width: 52%;
+  }
+  .description-us {
+    width: 28%;
+    margin-top: 180px;
+  }
+  .about {
+    left: 80px;
+    bottom: -80px;
+  }
+  .about2 {
+    display: none;
+  }
   .cart {
     width: 25%;
   }
@@ -8,11 +25,7 @@
   .bg-us img {
     position: absolute;
     left: 260px;
-    top: 100px;
+    top: 260px;
     width: 45%;
-  }
-  .us {
-    left: -200px;
-    bottom: 20px;
   }
 }
