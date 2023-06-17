@@ -596,7 +596,8 @@ main {
 .select-products {
   display: grid;
   grid-template-columns: 1.7fr 1.7fr 2fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  place-content: center;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -616,6 +617,7 @@ main {
   background-color: var(--plateado-transparent);
   border: solid 1px var(--white);
   position: relative;
+  display: flex;
 }
 .item a {
   background-color: rgba(80, 80, 80, 0);
@@ -752,7 +754,7 @@ main {
 #products {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(7, 1fr);
+  grid-auto-rows: 1fr;
 }
 /*concepts-------------------------*/
 .product-concept {
