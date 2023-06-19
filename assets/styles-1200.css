@@ -29,4 +29,28 @@
     top: 260px;
     width: 45%;
   }
+  #release-00 {
+    width: 50%;
+    scale: 1;
+    margin-top: 0%;
+    margin-left: 20%;
+  }
+  /*contact-----------------------*/
+  .contact-container {
+    padding: 40px 60px;
+    background-size: 33%;
+    background-position: 20% 35%;
+    background-repeat: no-repeat;
+  }
+  .usc {
+    width: 20%;
+    padding: 10px 20px;
+  }
+  .Contact {
+    width: 28%;
+  }
+  iframe {
+    height: 420px;
+    width: 420px;
+  }
 }
