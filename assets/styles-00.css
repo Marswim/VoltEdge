@@ -1096,10 +1096,15 @@ main {
 }
 
 /*kids-scooter-------------------------*/
+.kids {
+  margin: 0px;
+  padding: 0px;
+}
 .kids-scooter {
   display: flex;
   flex-direction: column;
   padding: 0px;
+  margin: 0px;
 }
 .kid-info {
   display: flex;
@@ -1207,6 +1212,7 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  padding-top: 0px;
   gap: 20px;
   align-items: center;
 }
@@ -1309,6 +1315,7 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  padding-top: 0px;
   gap: 20px;
   align-items: center;
 }
@@ -1411,6 +1418,7 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  padding-top: 0px;
   gap: 20px;
   align-items: center;
 }
@@ -1514,6 +1522,7 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  padding-top: 0px;
   gap: 20px;
   align-items: center;
 }
@@ -1678,10 +1687,11 @@ main {
 }
 
 #release-00 {
-  width: 50%;
-  scale: 0.8;
-  margin-top: -7%;
-  margin-left: 20%;
+  position: absolute;
+  width: 100%;
+  scale: 0.5;
+  top: 0%;
+  left: 15%;
 }
 /*contact-----------------------*/
 .contact-container {

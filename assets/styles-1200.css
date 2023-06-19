@@ -29,11 +29,18 @@
     top: 260px;
     width: 45%;
   }
+  /*Release-----------------------*/
+  #White {
+    top: 110px;
+
+    left: 500px;
+  }
   #release-00 {
-    width: 50%;
-    scale: 1;
-    margin-top: 0%;
-    margin-left: 20%;
+    position: absolute;
+    width: 100%;
+    scale: 0.7;
+    top: 25%;
+    left: 15%;
   }
   /*contact-----------------------*/
   .contact-container {
