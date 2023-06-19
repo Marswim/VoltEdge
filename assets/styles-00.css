@@ -530,6 +530,7 @@ main {
 .about2 {
   display: none;
 }
+/*us-benefits------------------------------*/
 #us-benefits {
   display: flex;
   position: relative;
@@ -558,9 +559,11 @@ main {
   align-items: flex-start;
   width: 100%;
   gap: 120px;
+  padding: 0px 40px;
 }
 .btn-engine,
 .btn-company {
+  display: flex;
   border: solid 1px var(--white);
   padding: 5px 20px;
   border-radius: 20px;
@@ -568,11 +571,9 @@ main {
   cursor: pointer;
 }
 #btn-engine {
-  display: flex;
   display: none;
 }
 #btn-company {
-  display: flex;
   display: none;
 }
 #btn-company:checked ~ .info-us {
@@ -607,7 +608,6 @@ main {
 }
 .electric-motor {
   width: 100%;
-  height: 600px;
   background-image: url(./sketch-electric-motor.png);
   background-color: var(--plateado-transparent);
   background-position: center;
@@ -784,6 +784,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 1fr;
+  padding: 0px 20px;
 }
 /*concepts-------------------------*/
 .product-concept {
