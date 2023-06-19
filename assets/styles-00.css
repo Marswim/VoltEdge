@@ -784,7 +784,6 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 1fr;
-  padding: 0px 20px;
 }
 /*concepts-------------------------*/
 .product-concept {
