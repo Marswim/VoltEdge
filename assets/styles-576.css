@@ -70,7 +70,7 @@
     gap: 80px;
   }
   /*sector grid*/
-  @media screen and (min-width: 480px) and (max-width: 576px) {
+  @media screen and (min-width: 320px) and (max-width: 576px) {
     .select-products {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -102,55 +102,137 @@
     .products-cards-scooter,
     .products-cards-classics,
     .products-cards-motorcycle {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
     .product:nth-child(even),
     .product:nth-child(odd) {
       grid-column: auto;
       grid-row: auto;
     }
-  }
+    .Concept-info {
+      flex-direction: column;
 
-  /*release------------------------------*/
-  .new-releases p {
-    position: absolute;
+      padding: 40px;
+      gap: 20px;
+    }
+    .Concept-info h2 {
+      border-right: none;
+      border-bottom: solid 2px white;
+      padding-right: 0px;
+      text-align: start;
+    }
+    .adult-info {
+      flex-direction: column;
+      padding: 40px;
+      gap: 20px;
+    }
+    .adult-info h2 {
+      border-right: none;
+      border-bottom: solid 2px white;
+      padding-right: 0px;
+      text-align: start;
+    }
+    .kid-info {
+      flex-direction: column;
+      padding: 40px;
+      gap: 20px;
+    }
+    .kid-info h2 {
+      border-right: none;
+      border-bottom: solid 2px white;
+      padding-right: 0px;
+      text-align: start;
+    }
+    .skate-info {
+      flex-direction: column;
+      padding: 40px;
+      gap: 20px;
+    }
+    .skate-info h2 {
+      border-right: none;
+      border-bottom: solid 2px white;
+      padding-right: 0px;
+      text-align: start;
+    }
+    .scooter-info {
+      flex-direction: column;
+      padding: 40px;
+      gap: 20px;
+      align-items: start;
+    }
+    .scooter-info h2 {
+      border-right: none;
+      border-bottom: solid 2px white;
+      padding-right: 0px;
+      text-align: start;
+    }
+    .classics-info {
+      flex-direction: column;
+      padding: 40px;
+      gap: 20px;
+      align-items: start;
+    }
+    .classics-info h2 {
+      border-right: none;
+      border-bottom: solid 2px white;
+      padding-right: 0px;
+      text-align: start;
+    }
+    .motorcycle-info {
+      flex-direction: column;
+      padding: 40px;
+      gap: 20px;
+      align-items: start;
+    }
 
-    font-weight: 900;
-    font-size: 90px;
-    margin-left: 20px;
-    padding-bottom: 5px;
-    padding-right: 80px;
-    line-height: 0.8;
-    top: 10px;
-  }
-  #White {
-    color: rgb(255, 255, 255);
-    top: 110px;
-    font-size: 60px;
-    left: 300px;
-    padding: 0px;
-  }
-  #release-00 {
-    position: absolute;
-    width: 100%;
-    scale: 0.9;
-    top: 45%;
-    left: 5%;
-  }
+    .motorcycle-info h2 {
+      border-right: none;
+      border-bottom: solid 2px white;
+      padding-right: 0px;
+      text-align: start;
+    }
 
-  /*contact-----------------------*/
-  .contact-container {
-    padding: 20px 10px;
-    background-size: 70%;
-    background-position: 50% 20%;
-    background-repeat: no-repeat;
-    gap: 15px;
-  }
-  .usc {
-    width: 40%;
-    padding: 10px 10px;
-  }
-  .Contact {
-    width: 50%;
+    /*release------------------------------*/
+    .new-releases p {
+      position: absolute;
+
+      font-weight: 900;
+      font-size: 90px;
+      margin-left: 20px;
+      padding-bottom: 5px;
+      padding-right: 80px;
+      line-height: 0.8;
+      top: 10px;
+    }
+    #White {
+      color: rgb(255, 255, 255);
+      top: 110px;
+      font-size: 60px;
+      left: 300px;
+      padding: 0px;
+    }
+    #release-00 {
+      position: absolute;
+      width: 100%;
+      scale: 0.9;
+      top: 45%;
+      left: 5%;
+    }
+
+    /*contact-----------------------*/
+    .contact-container {
+      padding: 20px 10px;
+      background-size: 70%;
+      background-position: 50% 20%;
+      background-repeat: no-repeat;
+      gap: 15px;
+    }
+    .usc {
+      width: 40%;
+      padding: 10px 10px;
+    }
+    .Contact {
+      width: 50%;
+    }
   }
 }

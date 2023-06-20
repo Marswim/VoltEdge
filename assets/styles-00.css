@@ -211,7 +211,6 @@ li span {
 .cart-login {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   width: 100%;
   height: 120px;
@@ -1002,7 +1001,6 @@ main {
   justify-content: space-between;
   padding: 40px;
   gap: 20px;
-  align-items: center;
 }
 .adult-info h2 {
   color: white;
@@ -1111,7 +1109,6 @@ main {
   justify-content: space-between;
   padding: 40px;
   gap: 20px;
-  align-items: center;
 }
 .kid-info h2 {
   color: white;
@@ -1214,7 +1211,6 @@ main {
   padding: 40px;
   padding-top: 0px;
   gap: 20px;
-  align-items: center;
 }
 .skate-info h2 {
   color: white;
