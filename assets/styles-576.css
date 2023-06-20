@@ -110,6 +110,7 @@
     grid-column: auto;
     grid-row: auto;
   }
+  /*products---------------------------*/
   .Concept-info {
     flex-direction: column;
 
