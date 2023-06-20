@@ -554,45 +554,48 @@ main {
 }
 .type-info {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
   width: 100%;
-  gap: 120px;
+  gap: 40px;
   padding: 0px 40px;
 }
-.btn-engine,
+
 .btn-company {
   display: flex;
   border: solid 1px var(--white);
-  padding: 5px 20px;
+  padding: 5px 40px;
   border-radius: 20px;
-  font-weight: 900px;
+  font-weight: 900;
+  font-size: 32px;
   cursor: pointer;
-}
-#btn-engine {
-  display: none;
 }
 #btn-company {
   display: none;
 }
-#btn-company:checked ~ .info-us {
-  display: block;
-  transition: all 0.7s linear;
-}
-#btn-company:checked ~ .electric-us {
+
+#btn-company:checked ~ .content-us .electric-us {
   display: none;
   transition: all 0.7s linear;
 }
-#btn-engine:checked ~ .info-us {
-  display: none;
-  transition: all 0.7s linear;
-}
-#btn-engine:checked ~ .electric-us {
+
+#btn-company:checked ~ .content-us .info-us {
   display: block;
   transition: all 0.7s linear;
 }
+.type-info span {
+  padding: 0px 10px;
+}
+.btn-company:hover {
+  background-color: white;
+  color: rgb(24, 24, 50);
+  font-weight: 900;
+  transition: all 1s ease;
+}
+
 .content-us {
-  padding: 40px;
+  padding: 0px 40px 40px 0px;
 }
 .info-us {
   display: flex;
@@ -604,6 +607,15 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+#btn-company:checked ~ .content-us .electric-us {
+  display: none;
+  transition: all 0.7s linear;
+}
+
+#btn-company:checked ~ .content-us .info-us {
+  display: block;
+  transition: all 0.7s linear;
 }
 .electric-motor {
   width: 100%;
@@ -1036,7 +1048,6 @@ main {
 .A-scooter-01 {
   display: flex;
   flex-direction: column;
-
   justify-content: space-around;
   align-items: center;
   padding: 40px;
@@ -1056,7 +1067,6 @@ main {
 .a-scooter-02 {
   display: flex;
   flex-direction: column;
-
   justify-content: space-around;
   align-items: center;
   padding: 40px;
@@ -1076,7 +1086,6 @@ main {
 .a-scooter-03 {
   display: flex;
   flex-direction: column;
-
   justify-content: space-around;
   align-items: center;
   padding: 40px;
@@ -1094,7 +1103,8 @@ main {
 }
 
 /*kids-scooter-------------------------*/
-.kids {
+#kids {
+  display: flex;
   margin: 0px;
   padding: 0px;
 }
@@ -1163,7 +1173,6 @@ main {
 .kid-scooter-02 {
   display: flex;
   flex-direction: column;
-
   justify-content: space-around;
   align-items: center;
   padding: 40px;
@@ -1200,10 +1209,14 @@ main {
   z-index: 2;
 }
 /*SKATE-------------------------*/
+
 .product-skate {
+  margin: 0px;
+  padding: 0px;
+}
+.skate-00 {
   display: flex;
   flex-direction: column;
-  padding: 0px;
 }
 .skate-info {
   display: flex;
