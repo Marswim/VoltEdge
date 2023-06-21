@@ -77,15 +77,31 @@
 .add-condition {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  gap: 160px;
 }
 .add-check {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
   gap: 10px;
 }
 .condition {
   display: flex;
+  flex-direction: column;
   gap: 10px;
+  width: 100%;
+}
+.check-agree {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5px;
+}
+#checkbox3 {
+  height: 20px;
+  width: 20px;
 }
 .add {
   display: flex;
@@ -93,7 +109,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
   background-color: rgba(24, 24, 50, 0);
   border-radius: 20px;
   font-size: 12px;
@@ -102,6 +117,10 @@
   border: solid 1px;
   border-color: rgba(255, 255, 255, 0.927);
   cursor: pointer;
+}
+.add a {
+  text-decoration: none;
+  color: white;
 }
 .submit {
   position: relative;
