@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Indie+Flower&family=Poppins:wght@100;300;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work+Sans", sans-serif;
+}
+:root {
+  --yellow: #dcbe12;
+  --plateado: #c0c0c0;
+  --plateado-transparent: #c0c0c06f;
+  --azulino: #071934;
+  --white: #fafafa;
+  --bg-img: url("assets/endless-constellation.svg");
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+body {
+  width: 100%;
+  color: white;
+  background-color: var(--azulino);
+}
+#terms-condition {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.terms-text {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border-radius: 20px;
+  border: solid 1px white;
+  padding: 40px;
+  gap: 20px;
+}
+.Accept {
+  background: none;
+  border: none;
+}
+.Accept a {
+  color: white;
+  background-color: rgba(24, 24, 50, 0);
+  border-radius: 100% / 100% 30% 100% 100%;
+  font-size: 18px;
+  padding: 5px 20px;
+  font-weight: 900;
+  border: solid 2px;
+  border-top: none;
+  border-right: none;
+  border-color: rgba(255, 255, 255, 0.927);
+  cursor: pointer;
+}
+.Accept a:hover {
+  color: rgb(0, 0, 0);
+  background-color: var(--white);
+}
+@media (max-width: 320px) {
+  #terms-condition {
+    padding: 20px;
+  }
+  .terms-text {
+    padding: 20px;
+  }
+}
