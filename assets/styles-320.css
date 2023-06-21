@@ -316,6 +316,19 @@
     padding-right: 0px;
     text-align: start;
   }
+  /*support*/
+  .support-container {
+    padding-bottom: 60px;
+  }
+  .support-container h2 {
+    border-radius: 100% / 100% 30% 100% 100%;
+    font-size: 36px;
+    padding: 60px 20px;
+  }
+  .step {
+    padding: 20px;
+    text-align: center;
+  }
   /*release------------------------------*/
   #releases {
     height: 400px;

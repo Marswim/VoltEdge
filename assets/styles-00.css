@@ -1625,6 +1625,65 @@ main {
   transition: transform 1s ease-in-out;
   z-index: 2;
 }
+/*support*/
+.support-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+.support-container h2 {
+  border-radius: 100% / 100% 30% 100% 100%;
+  font-size: 38px;
+  padding: 20px 40px;
+  font-weight: 900;
+  border: solid 2px;
+  border-top: none;
+  border-right: none;
+  border-color: rgb(255, 255, 255);
+  color: var(--plateado);
+}
+.support-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid var(--white);
+  border-radius: 2rem;
+  padding: 20px;
+}
+.step p {
+  font-size: 22px;
+}
+.step p::first-letter {
+  font-size: 72px;
+  color: var(--plateado);
+  font-weight: 900;
+}
+.step img {
+  width: 120px;
+  border-radius: 3rem;
+  border: 1px solid var(--plateado);
+  box-shadow: 0 0 10px 0 var(--white);
+}
+.b2 img {
+  width: 80px;
+  height: auto;
+}
+.c3 img {
+  width: 140px;
+}
+.e5 img {
+  width: 80px;
+}
 /*Releases*/
 @keyframes colorTransition {
   0% {
