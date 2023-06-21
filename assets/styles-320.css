@@ -61,38 +61,42 @@
   #introduction-us {
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 0px;
     height: auto;
     width: 100%;
     margin: 0px;
+    padding-bottom: 60px;
   }
   .bg-us {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
     margin-top: 130px;
     width: 100%;
   }
-  #motor {
-    position: absolute;
-    left: 10%;
-    top: 45%;
-    width: 55%;
-  }
-  .bg h1 {
+  .bg-us h1 {
     width: 100%;
+    text-align: start;
     font-size: 22px;
     padding: 0px;
     margin: 0px;
   }
+
+  #motor {
+    position: absolute;
+    left: 11%;
+    top: 30%;
+    width: 80%;
+  }
+
   .bg-us span {
-    color: var(--yellow);
-    font-weight: 900;
     font-size: 22px;
   }
   .btn {
     position: relative;
+    margin-top: -80px;
     font-size: 18px;
     padding: 5px 10px;
     font-weight: 900;
@@ -103,8 +107,8 @@
     width: 100%;
     padding: 5px;
     padding-bottom: 0px;
-
     margin-top: 0px;
+    gap: 0px;
   }
   .description-us h1 {
     font-weight: 900;
@@ -129,6 +133,8 @@
     font-size: 18px;
     padding: 5px 10px;
     margin: 0px;
+    margin-left: -90px;
+    margin-bottom: 20px;
   }
   .about2 {
     display: none;
@@ -300,6 +306,10 @@
     text-align: start;
   }
   /*release------------------------------*/
+  #releases {
+    height: 400px;
+    border-bottom: solid 5px white;
+  }
   .new-releases p {
     position: absolute;
 
@@ -321,7 +331,7 @@
     position: absolute;
     width: 100%;
     scale: 0.9;
-    top: 45%;
+    top: 55%;
     left: 3%;
   }
 
