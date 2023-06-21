@@ -845,6 +845,7 @@ main {
 }
 
 .product {
+  flex-wrap: wrap;
   background-color: var(--plateado-transparent);
   border: solid 1px var(--white);
   position: relative;

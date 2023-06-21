@@ -57,6 +57,17 @@
     height: 35px;
     cursor: pointer;
   }
+  .cart {
+    width: 60%;
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+  }
+  #kid-00 {
+    width: 55%;
+  }
+  #classic-02 {
+    width: 60%;
+  }
 
   #introduction-us {
     flex-direction: column;
