@@ -357,6 +357,16 @@
     height: 260px;
     width: 260px;
   }
+  /*chat-zone-----------------------------------*/
+
+  #chat-img {
+    width: 20%;
+    height: 10%;
+  }
+  #questions {
+    width: 20%;
+  }
+
   /*footer--------------------------------*/
   .footer-container {
     padding: 5px 0px 10px 20px;

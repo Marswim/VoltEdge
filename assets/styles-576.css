@@ -238,4 +238,27 @@
   .Contact {
     width: 50%;
   }
+  /*chat-zone-----------------------------------*/
+  .chat-zone {
+    bottom: 20px;
+    right: 5px;
+    margin: 0;
+    width: 100%;
+  }
+  #chat-img {
+    width: 12%;
+    height: 3%;
+  }
+  #questions {
+    width: 12%;
+    padding-left: 2px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  #questions::placeholder {
+    margin-left: 2px;
+    padding-left: 2px;
+    padding-top: 10px;
+    text-align: center;
+  }
 }

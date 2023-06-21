@@ -1822,6 +1822,38 @@ iframe {
   height: 420px;
   width: 620px;
 }
+/*chat-zone-----------------------------------*/
+.chat-zone {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 120px;
+  right: 5px;
+  margin: 0;
+  width: 100%;
+}
+#chat-img {
+  width: 5%;
+}
+#questions {
+  width: 8%;
+  border-radius: 40%;
+  border: none;
+  padding-left: 15px;
+  border: 1px solid var(--azulino);
+  padding-top: 30px;
+  background-color: rgba(255, 255, 255, 0.637);
+}
+#questions::placeholder {
+  font-weight: 700;
+  border: none;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-top: 20px;
+  border-radius: 20px;
+  color: rgb(118, 118, 118);
+  background-color: rgba(255, 255, 255, 0);
+}
 /*footer-----------------------*/
 .footer-container {
   display: flex;

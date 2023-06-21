@@ -60,4 +60,40 @@
     height: 420px;
     width: 420px;
   }
+  /*chat-zone-----------------------------------*/
+  .chat-zone {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 20px;
+    right: 5px;
+    margin: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  #chat-img {
+    width: 8%;
+    height: 1%;
+  }
+  #questions {
+    width: 10%;
+    border-radius: 40%;
+    border: none;
+    padding-left: 2px;
+    border: 1px solid var(--azulino);
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+  }
+  #questions::placeholder {
+    font-weight: 700;
+    border: none;
+    margin-left: 2px;
+    padding-left: 2px;
+    padding-top: 10px;
+    border-radius: 20px;
+    color: rgb(118, 118, 118);
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+  }
 }
