@@ -33,7 +33,12 @@ body {
 .terms-text {
   display: flex;
   flex-direction: column;
-  background-color: transparent;
+  background-color: var(--plateado-transparent);
+  background-image: url(./logo-e-vehicle.png);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   border-radius: 20px;
   border: solid 1px white;
   padding: 40px;
