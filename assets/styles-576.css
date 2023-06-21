@@ -62,7 +62,9 @@
   /*us-benefits------------------------------*/
   #us-benefits {
     gap: 0px;
+    flex-direction: column;
   }
+
   .our-company {
     gap: 10px;
   }
