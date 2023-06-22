@@ -627,7 +627,7 @@ main {
   clip-path: polygon(30% 50% 20% 60%);
   border-left: solid 1px white;
 }
-
+/*panel de seleccion-----------------------*/
 #select {
   display: flex;
   flex-direction: row;
