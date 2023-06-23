@@ -372,17 +372,22 @@ li span {
   transition: all 0.7s linear;
 }
 /*para efecto de glassmorphismo--para el carrito*/
-/*.overlay {
+.overlay {
   position: absolute;
-  top: 120x;
+  top: 120px;
   left: 0;
   height: 100vh;
-  width: 100%;
-  z-index: 1;
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
-  backdrop-filter: blur (5px);
-}*/
+  width: 200vh;
+  z-index: 999;
+  background: rgba(95, 95, 95, 0.537);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.598);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  display: none;
+}
+#cart-toggle:checked ~ .overlay {
+  display: block;
+}
 
 /*main configuracion*/
 main {
