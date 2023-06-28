@@ -59,17 +59,18 @@
     position: relative;
     width: 100%;
   }
-  .bg-us img {
+  #motor {
     position: absolute;
     left: 190px;
-    top: 140px;
-    width: 60%;
+    top: 360px;
+    width: 50%;
   }
   .bg-us h1 {
     width: 40%;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-left: 20px;
   }
+
   .us {
     left: -200px;
     bottom: 30px;

@@ -397,6 +397,14 @@ main {
   background-color: var(--azulino);
 }
 /*seccion-us*/
+@keyframes opacidad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 #introduction-us {
   display: flex;
   flex-direction: row;
@@ -434,6 +442,9 @@ main {
   display: flex;
   margin-top: 220px;
   width: 40%;
+  opacity: 0;
+  animation: opacidad 0.8s ease-in forwards;
+  animation-delay: 0.5s;
 }
 #motor {
   position: absolute;
@@ -441,11 +452,13 @@ main {
   top: 30%;
   width: 45%;
 }
+
 .bg-us span {
   color: var(--yellow);
   font-weight: 900;
   font-size: 38px;
 }
+
 .btn {
   display: flex;
   position: absolute;
