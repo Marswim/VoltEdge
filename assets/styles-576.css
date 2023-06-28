@@ -195,6 +195,16 @@
     padding-right: 0px;
     text-align: start;
   }
+  /*support------------------------------*/
+  .support-container {
+    padding: 0px 40px 80px 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .support-steps {
+    justify-content: center;
+    align-items: center;
+  }
 
   /*release------------------------------*/
   .new-releases p {

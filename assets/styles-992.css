@@ -77,11 +77,30 @@
   .description-us {
     width: 35%;
   }
+  .about {
+    left: 60px;
+    bottom: -60px;
+  }
   /*support*/
 
   .support-container h2 {
     padding: 20px 20px;
     text-align: center;
+  }
+  /*Release-----------------------*/
+  #White {
+    top: 110px;
+    left: 380px;
+  }
+  #release-00 {
+    position: absolute;
+    width: 100%;
+    scale: 0.8;
+    top: 45%;
+    left: 8%;
+  }
+  .new-releases p {
+    padding-right: 80px;
   }
   /*contact-----------------------*/
   .contact-container {

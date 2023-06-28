@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
   #motor {
     position: absolute;
     left: 17%;
@@ -31,7 +31,7 @@
   }
   /*support*/
   .support-container {
-    padding: 0px 40px 80px;
+    padding: 0px 40px 80px 40px;
     justify-content: center;
   }
   .support-steps {

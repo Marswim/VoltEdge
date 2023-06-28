@@ -211,8 +211,8 @@
   #products {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 1fr;
-    padding: 0px;
+
+    padding: 20px 5px;
   }
   .products-cards-concepts,
   .products-cards-a-scooters,
@@ -222,13 +222,8 @@
   .products-cards-classics,
   .products-cards-motorcycle {
     grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: auto;
   }
-  .product:nth-child(even),
-  .product:nth-child(odd) {
-    grid-column: auto;
-    grid-row: auto;
-  }
+
   /*products---------------------------*/
   .product {
     padding: 10px 20px;
@@ -236,7 +231,6 @@
   }
   .Concept-info {
     flex-direction: column;
-
     padding: 40px;
     gap: 20px;
   }
@@ -319,6 +313,7 @@
   /*support*/
   .support-container {
     padding-bottom: 60px;
+    padding-top: 0px;
   }
   .support-container h2 {
     border-radius: 100% / 100% 30% 100% 100%;
@@ -348,7 +343,7 @@
     color: rgb(255, 255, 255);
     top: 90px;
     font-size: 40px;
-    left: 160px;
+    left: 150px;
     padding: 0px;
   }
   #release-00 {
