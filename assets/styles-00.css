@@ -635,6 +635,7 @@ main {
   display: block;
   transition: all 0.7s linear;
 }
+
 .electric-motor {
   width: 100%;
   background-image: url(./sketch-electric-motor.png);
@@ -644,7 +645,22 @@ main {
   background-repeat: no-repeat;
   clip-path: polygon(30% 50% 20% 60%);
   border-left: solid 1px white;
+  transition: 2s all;
+  perspective: 1000px;
 }
+
+.electric-motor:hover {
+  width: 100%;
+  background-image: url(./electric-engine.png);
+  background-color: var(--plateado-transparent);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  clip-path: polygon(30% 50% 20% 60%);
+  border-left: solid 1px white;
+  transition: 2s all;
+}
+
 /*panel de seleccion-----------------------*/
 #select {
   display: flex;
@@ -1660,10 +1676,10 @@ main {
   border-right: none;
   border-color: rgb(255, 255, 255);
   color: var(--plateado);
-  background: radial(
-    0deg,
+  background: linear-gradient(
+    to right,
     rgb(223, 255, 223) 5%,
-    rgb(254, 174, 0) 50%,
+    rgb(254, 174, 0) 80%,
     rgb(255, 255, 136) 95%
   );
   text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.272);
