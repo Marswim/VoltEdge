@@ -322,6 +322,23 @@
   .step {
     padding: 20px;
     text-align: center;
+    gap: 20px;
+  }
+  .step p {
+    font-size: 22px;
+    text-align: left;
+  }
+  .step p::first-letter {
+    font-size: 72px;
+    color: var(--plateado);
+    font-weight: 900;
+    text-align: center;
+    line-height: 0.7em;
+    float: left;
+    margin-right: 5px;
+  }
+  .c3 p::first-letter {
+    line-height: 1.2em;
   }
   /*release------------------------------*/
   #releases {

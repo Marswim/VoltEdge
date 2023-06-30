@@ -40,6 +40,22 @@
     justify-content: center;
     gap: 40px;
   }
+  .step {
+    gap: 40px;
+  }
+  .step p {
+    font-size: 22px;
+    text-align: left;
+  }
+  .step p::first-letter {
+    font-size: 72px;
+    color: var(--plateado);
+    font-weight: 900;
+    text-align: center;
+    line-height: 0.4em;
+    float: left;
+    margin-right: 5px;
+  }
   /*Release-----------------------*/
   #White {
     top: 110px;

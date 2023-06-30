@@ -1706,6 +1706,7 @@ main {
   border-radius: 2rem;
   padding: 20px;
   height: 300px;
+  gap: 40px;
 }
 .step p {
   font-size: 22px;
@@ -1714,6 +1715,10 @@ main {
   font-size: 72px;
   color: var(--plateado);
   font-weight: 900;
+  text-align: center;
+  line-height: 0.4em;
+  float: left;
+  margin-right: 5px;
 }
 .step img {
   width: 120px;

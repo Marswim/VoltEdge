@@ -104,6 +104,23 @@
     grid-column: auto;
     grid-row: auto;
   }
+  /*support-------------------*/
+  .step {
+    gap: 40px;
+  }
+  .step p {
+    font-size: 22px;
+    text-align: left;
+  }
+  .step p::first-letter {
+    font-size: 72px;
+    color: var(--plateado);
+    font-weight: 900;
+    text-align: center;
+    line-height: 0.4em;
+    float: left;
+    margin-right: 5px;
+  }
 }
 
 @media screen and (min-width: 319px) and (max-width: 768px) {
